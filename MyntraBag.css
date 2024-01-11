@@ -1,0 +1,124 @@
+.items_container_bag{
+  display: inline-block;
+  width: 65%;
+  padding-right: 20px;
+  border-right: 1px solid #eaeaec;
+  padding-top: 32px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.42857143;
+}
+.bag_page{
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.bag_summary{
+  vertical-align: top;
+  display: inline-block;
+  width: 45%;
+  padding: 24px 0 0 16px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.bag_details_container{
+  margin-bottom: 16px;
+}
+.price_header{
+  font-weight: 700;
+  font-size: 12px;
+  margin: 24px 0 16px;
+  color: #535766;
+}
+.price_item{
+  margin-bottom: 12px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #282c3f;
+}
+.price_item_value{
+  float: right;
+}
+.priceDetail_base_discount{
+  color: #03a685;
+}
+.priceDetail_convenience{
+  color: red;
+}
+.price_footer{
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 16px;
+  border-top: 1px solid #eaeaec;
+  color: #3e4152;
+  line-height: 16px;
+}
+.btn_place_order{
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 2px;
+  border-width: 0px;
+  padding: 10px 16px;
+  background-color: #ff3f6c;
+  color: white;
+  cursor: pointer;
+}
+.item_container_bag{
+  margin-bottom: 8px;
+  background: white;
+  font-size: 14px;
+  border: 1px solid #eaeaec;
+  border-radius: 4px;
+  position: relative;
+  padding: 12px 12px 0;
+}
+.item_left_part{
+  position: absolute;
+  background: rgb(255, 242, 223);
+  height: 148px;
+  width: 111px;
+}
+.item_right_part{
+  padding-left: 12px;
+  position: relative;
+  min-height: 148px;
+  margin-left: 111px;
+  margin-bottom: 12px;
+}
+.bag_item_img{
+  width: 100%;
+}
+.return_period{
+  display: inline-flex;
+  font-size: 14px;
+  padding-top: 8px;
+}
+.return_period_days{
+  font-weight: 700;
+  margin-right: 4px;
+}
+.delivery-details_days{
+  color: #03a685;
+}
+.delivery_details{
+  margin-top: 5px;
+  color: #282c3f;
+  font-size: 12px;
+  letter-spacing: -.1px;
+  margin-bottom: 8px;
+  line-height: 15px;
+}
+.remove_from_cart{
+  position: absolute;
+  font-size: 25px;
+  top: 10px;
+  right: 18px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
